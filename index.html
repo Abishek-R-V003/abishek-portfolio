@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ==== SEO ==== -->
+  <title>Abishek R V – Full Stack Developer & AI Enthusiast</title>
+  <meta name="description" content="Premium portfolio of Abishek R V – Full Stack Developer, AI enthusiast, Django expert. Showcasing projects, skills, services and resume.">
+  <meta name="author" content="Abishek R V">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://abhishekrv.dev/">
+  <meta property="og:title" content="Abishek R V – Full Stack Developer & AI Enthusiast">
+  <meta property="og:description" content="Premium portfolio showcasing AI‑powered web apps, Django backends, SaaS solutions and more.">
+  <meta property="og:image" content="https://abhishekrv.dev/assets/img/og-image.jpg">
+  <meta property="og:site_name" content="Abishek R V Portfolio">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Abishek R V – Full Stack Developer & AI Enthusiast">
+  <meta name="twitter:description" content="Premium portfolio showcasing AI‑powered web apps, Django backends, SaaS solutions and more.">
+  <meta name="twitter:image" content="https://abhishekrv.dev/assets/img/og-image.jpg">
+
+  <!-- Schema.org JSON‑LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Abishek R V",
+    "url": "https://abhishekrv.dev/",
+    "sameAs": [
+      "https://github.com/abhishekrv",
+      "https://linkedin.com/in/abhishekrv",
+      "https://twitter.com/abhishekrv"
+    ],
+    "jobTitle": "Full Stack Developer",
+    "description": "Full Stack Developer with expertise in Django, React, Next.js, AI/ML (OpenAI, LangChain, RAG) and SaaS architecture.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Krishnagiri",
+      "addressRegion": "Tamil Nadu",
+      "addressCountry": "IN"
+    },
+    "email": "abhishekvadivelrv@gmail.com",
+    "telephone": "+91 9840889119"
+  }
+  </script>
+
+  <!-- ==== FONTS & ICONS ==== -->
+  <!-- Google Fonts (Inter & Outfit) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Kit (replace YOUR_KIT_ID with the ID you get from Font Awesome) -->
+  <script src="https://kit.fontawesome.com/YOUR_KIT_ID.js" crossorigin="anonymous"></script>
+
+  <!-- ==== STYLES ==== -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body data-theme="dark">
+
+  <!-- ==== SCROLL PROGRESS BAR ==== -->
+  <div id="progress-bar"></div>
+
+  <!-- ==== NAVIGATION ==== -->
+  <nav class="glass sticky-top z-50">
+    <div class="container nav-inner d-flex align-items-center justify-content-between p-3">
+      <a href="#" class="logo d-flex align-items-center">
+        <i class="fas fa-code me-2"></i>
+        <span>Abishek R V</span>
+      </a>
+      <ul class="nav-list d-flex gap-4 list-none m-0">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions d-flex align-items-center gap-2">
+       <button id="theme-toggle" class="btn btn-icon" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <a href="mailto:abhishekvadivelrv@gmail.com" class="btn btn-primary">Contact Me</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==== HERO ==== -->
+  <section id="hero" class="hero mesh-bg py-20 text-center position-relative overflow-hidden">
+    <div class="container">
+      <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+        Building Intelligent Digital Experiences That Drive Results
+      </h1>
+      <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+        AI‑powered scalable solutions
+      </p>
+      <div class="hero-stats d-flex justify-content-center gap-4 mt-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="stat">
+          <div class="number">20+</div>
+          <div class="label">Projects</div>
+        </div>
+        <div class="stat">
+          <div class="number">10+</div>
+          <div class="label">Techs</div>
+        </div>
+        <div class="stat">
+          <div class="number">100%</div>
+          <div class="label">Passion</div>
+        </div>
+      </div>
+      <a href="#about" class="hero-btn btn btn-primary mt-5" data-aos="fade-up" data-aos-delay="400">
+        Learn More <i class="fas fa-arrow-right ms-2"></i>
+      </a>
+    </div>
+    <!-- Optional parallax background image -->
+    <div class="hero-bg" style="background-image:url('assets/img/hero-bg.jpg');"></div>
+  </section>
+
+  <!-- ==== TRUST BADGES ==== -->
+  <section id="trust" class="py-8">
+    <div class="container">
+      <div class="badges d-flex flex-wrap justify-content-center gap-3">
+        <span class="badge glass"><i class="fas fa-layer-group"></i> Full Stack</span>
+        <span class="badge glass"><i class="fas fa-brain"></i> AI Enthusiast</span>
+        <span class="badge glass"><i class="fab fa-django"></i> Django Dev</span>
+        <span class="badge glass"><i class="fas fa-rocket"></i> SaaS Builder</span>
+        <span class="badge glass"><i class="fas fa-cloud"></i> Cloud Ready</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==== ABOUT ==== -->
+  <section id="about" class="py-12">
+    <div class="container">
+      <div class="row gy-4 align-items-start">
+        <div class="col-lg-6">
+          <div class="glass p-4">
+            <h2 class="section-title">About Me</h2>
+            <p class="lead">
+              I'm Abishek R V, a passionate Full Stack Developer based in Krishnagiri, TN. I specialize in crafting AI‑enhanced web applications, scalable backends with Django, and delightful user experiences. When I'm not coding, I'm exploring the latest in LLMs, contributing to open‑source, or mentoring junior developers.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="glass p-4">
+            <h2 class="section-title">Professional Timeline</h2>
+            <div class="timeline">
+              <div class="timeline-item">
+                <time class="timeline-date">2018‑2020</time>
+                <div class="timeline-content">
+                  <h3>Programming Foundations</h3>
+                  <p>Learned C, Java & data structures; built desktop utilities.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <time class="timeline-date">2020‑2022</time>
+                <div class="timeline-content">
+                  <h3>Web Development</h3>
+                  <p>Mastered HTML5, CSS3, JS; built responsive sites & SPAs.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <time class="timeline-date">2022‑2023</time>
+                <div class="timeline-content">
+                  <h3>Project Development</h3>
+                  <p>Delivered full‑stack apps for startups & NGOs.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <time class="timeline-date">2023‑2024</time>
+                <div class="timeline-content">
+                  <h3>AI Integration</h3>
+                  <p>Implemented OpenAI GPT‑4, LangChain & RAG pipelines.</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <time class="timeline-date">2024‑Present</time>
+                <div class="timeline-content">
+                  <h3>Full Stack Expertise</h3>
+                  <p>Architecting SaaS platforms, micro‑services & AI‑driven analytics.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==== SKILLS ==== -->
+  <section id="skills" class="py-12">
+    <div class="container">
+      <h2 class="section-title text-center mb-6">Skills</h2>
+      <div class="skills-grid bento-grid">
+        <!-- Frontend -->
+        <div class="skill-card glass bento-item wide">
+          <h3>Frontend</h3>
+          <div class="skill-bars">
+            <div class="skill-bar"><span>React</span><div class="bar"><div class="fill" style="width:90%"></div></div></div>
+            <div class="skill-bar"><span>Next.js</span><div class="bar"><div class="fill" style="width:85%"></div></div></div>
+            <div class="skill-bar"><span>TypeScript</span><div class="bar"><div class="fill" style="width:80%"></div></div></div>
+            <div class="skill-bar"><span>GSAP / AOS</span><div class="bar"><div class="fill" style="width:75%"></div></div></div>
+          </div>
+        </div>
+        <!-- Backend -->
+        <div class="skill-card glass bento-item wide">
+          <h3>Backend</h3>
+          <div class="skill-bars">
+            <div class="skill-bar"><span>Python</span><div class="bar"><div class="fill" style="width:95%"></div></div></div>
+            <div class="skill-bar"><span>Django</span><div class="bar"><div class="fill" style="width:90%"></div></div></div>
+            <div class="skill-bar"><span>Node.js / Express</span><div class="bar"><div class="fill" style="width:80%"></div></div></div>
+            <div class="skill-bar"><span>REST / GraphQL</span><div class="bar"><div class="fill" style="width:85%"></div></div></div>
+          </div>
+        </div>
+        <!-- Databases -->
+        <div class="skill-card glass bento-item tall">
+          <h3>Databases</h3>
+          <div class="skill-bars">
+            <div class="skill-bar"><span>MySQL</span><div class="bar"><div class="fill" style="width:85%"></div></div></div>
+            <div class="skill-bar"><span>MongoDB</span><div class="bar"><div class="fill" style="width:80%"></div></div></div>
+            <div class="skill-bar"><span>PostgreSQL</span><div class="bar"><div class="fill" style="width:70%"></div></div></div>
+            <div class="skill-bar"><span>Redis</span><div class="bar"><div class="fill" style="width:65%"></div></div></div>
+          </div>
+        </div>
+        <!-- AI / ML -->
+        <div class="skill-card glass bento-item tall">
+          <h3>AI & ML</h3>
+          <div class="skill-bars">
+            <div class="skill-bar"><span>OpenAI GPT‑4</span><div class="bar"><div class="fill" style="width:85%"></div></div></div>
+            <div class="skill-bar"><span>LangChain</span><div class="bar"><div class="fill" style="width:80%"></div></div></div>
+            <div class="skill-bar"><span>RAG (Retrieval‑Augmented Generation)</span><div class="bar"><div class="fill" style="width:75%"></div></div></div>
+            <div class="skill-bar"><span>HuggingFace Transformers</span><div class="bar"><div class="fill" style="width:70%"></div></div></div>
+          </div>
+        </div>
+        <!-- DevOps / Tools -->
+        <div class="skill-card glass bento-item wide">
+          <h3>DevOps & Tools</h3>
+          <div class="skill-bars">
+            <div class="skill-bar"><span>Docker</span><div class="bar"><div class="fill" style="width:80%"></div></div></div>
+            <div class="skill-bar"><span>CI/CD (GitHub Actions)</span><div class="bar"><div class="fill" style="width:75%"></div></div></div>
+            <div class="skill-bar"><span>AWS / Vercel</span><div class="bar"><div class="fill" style="width:70%"></div></div></div>
+            <div class="skill-bar"><span>Figma</span><div class="bar"><div class="fill" style="width:65%"></div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==== SERVICES (Bento Grid) ==== -->
+  <section id="services" class="py-12">
+    <div class="container">
+      <h2 class="section-title text-center mb-6">What I Offer</h2>
+      <div class="services-grid bento-grid">
+        <!-- Web Development -->
+        <div class="service-card glass bento-item">
+          <i class="fas fa-laptop-code service-icon"></i>
+          <h3>Web Development</h3>
+          <p>Responsive, performance‑focused sites built with modern JS frameworks.</p>
+        </div>
+        <!-- Full Stack -->
+        <div class="service-card glass bento-item">
+          <i class="fas fa-layer-group service-icon"></i>
+          <h3>Full Stack Development</h3>
+          <p>End‑to‑end solutions from UI to scalable backends (Django/Node).</p>
+        </div>
+        <!-- Django Specialist -->
+        <div class="service-card glass bento-item">
+          <i class="fab fa-django service-icon"></i>
+          <h3>Django Expertise</h3>
+          <p>Rapid API development, admin customisation, and deployment.</p>
+        </div>
+        <!-- AI Integration -->
+        <div class="service-card glass bento-item">
+          <i class="fas fa-robot service-icon"></i>
+          <h3>AI Integration</h3>
+          <p>Embed LLMs, chatbots, recommendation engines & RAG pipelines.</p>
+        </div>
+        <!-- UI/UX -->
+        <div class="service-card glass bento-item">
+          <i class="fas fa-paint-brush service-icon"></i>
+          <h3>UI/UX Design</h3>
+          <p>Wireframes, high‑fidelity mockups & accessible design systems.</p>
+        </div>
+        <!-- API Development -->
+        <div class="service-card glass bento-item">
+          <i class="fas fa-exchange-alt service-icon"></i>
+          <h3>API Development</h3>
+          <p>RESTful & GraphQL APIs with authentication, rate‑limiting & docs.</p>
+        </div>
+        <!-- SaaS -->
+        <div class="service-card glass bento-item">
+          <i class="fas fa-cloud service-icon"></i>
+          <h3>SaaS Architecture</h3>
+          <p>Multi‑tenant apps, subscription billing & CI/CD pipelines.</p>
+        </div>
+        <!-- Consulting -->
+        <div class="service-card glass bento-item">
+          <i class="fas fa-headset service-icon"></i>
+          <h3>Technical Consulting</h3>
+          <p>Architecture reviews, performance audits & tech‑stack selection.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==== PROJECTS ==== -->
+  <section id="projects" class="py-12">
+    <div class="container">
+      <h2 class="section-title text-center mb-6">Featured Projects</h2>
+      <div class="projects-grid bento-grid">
+        <!-- 1. Student Management System -->
+        <div class="project-card glass bento-item wide">
+          <img src="assets/img/projects/student.jpg" alt="Student Management System" class="project-img">
+          <div class="project-content p-4">
+            <h3>Student Management System</h3>
+            <p class="project-tag">Django • PostgreSQL • React</p>
+            <p>Full‑featured CRUD app for managing student records, attendance & grades.</p>
+            <div class="project-actions d-flex justify-content-between mt-3">
+              <a href="https://github.com/abhishekrv/student-mgmt" target="_blank" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="https://student-mgmt-demo.vercel.app" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <!-- 2. AI Chat Assistant -->
+        <div class="project-card glass bento-item tall">
+          <img src="assets/img/projects/ai-chat.jpg" alt="AI Chat Assistant" class="project-img">
+          <div class="project-content p-4">
+            <h3>AI Chat Assistant</h3>
+            <p class="project-tag">OpenAI GPT‑4 • LangChain • Next.js</p>
+            <p>Conversational bot with memory, document retrieval & sentiment analysis.</p>
+            <div class="project-actions d-flex justify-content-between mt-3">
+              <a href="https://github.com/abhishekrv/ai-chat" target="_blank" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="https://ai-chat-demo.vercel.app" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <!-- 3. E‑Commerce Store -->
+        <div class="project-card glass bento-item">
+          <img src="assets/img/projects/ecomm.jpg" alt="E‑Commerce Store" class="project-img">
+          <div class="project-content p-4">
+            <h3>E‑Commerce Store</h3>
+            <p class="project-tag">Next.js • Stripe • MongoDB</p>
+            <p>Modern shop with product catalog, cart, payments & admin dashboard.</p>
+            <div class="project-actions d-flex justify-content-between mt-3">
+              <a href="https://github.com/abhishekrv/ecommerce" target="_blank" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="https://ecommerce-demo.vercel.app" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <!-- 4. Personal Portfolio (this site) -->
+        <div class="project-card glass bento-item">
+          <img src="assets/img/projects/portfolio.jpg" alt="Personal Portfolio" class="project-img">
+          <div class="project-content p-4">
+            <h3>Personal Portfolio</h3>
+            <p class="project-tag">HTML5 • CSS3 • GSAP • AOS</p>
+            <p>Showcase you’re viewing right now – built with glassmorphism & bento grid.</p>
+            <div class="project-actions d-flex justify-content-between mt-3">
+              <a href="https://github.com/abhishekrv/portfolio" target="_blank" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="https://abhishekrv.dev" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <!-- 5. CRM Dashboard -->
+        <div class="project-card glass bento-item tall">
+          <img src="assets/img/projects/crm.jpg" alt="CRM Dashboard" class="project-img">
+          <div class="project-content p-4">
+            <h3>CRM Dashboard</h3>
+            <p class="project-tag">Django • React • Chart.js • WebSockets</p>
+            <p>Real‑time sales pipeline, lead management & reporting.</p>
+            <div class="project-actions d-flex justify-content-between mt-3">
+              <a href="https://github.com/abhishekrv/crm" target="_blank" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="https://crm-demo.vercel.app" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <!-- 6. Business Management Suite -->
+        <div class="project-card glass bento-item wide">
+          <img src="assets/img/projects/biz.jpg" alt="Business Management Suite" class="project-img">
+          <div class="project-content p-4">
+            <h3>Business Management Suite</h3>
+            <p class="project-tag">Node.js • Express • MySQL • Vue 3</p>
+            <p>Modules for invoicing, inventory, HR & analytics.</p>
+            <div class="project-actions d-flex justify-content-between mt-3">
+              <a href="https://github.com/abhishekrv/business-suite" target="_blank" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="https://bizsuite-demo.vercel.app" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==== TECH STACK FLOATING ICONS ==== -->
+  <section id="tech-stack" class="py-8">
+    <div class="container">
+      <h2 class="section-title text-center mb-6">Tech Stack</h2>
+      <div class="tech-icons d-flex flex-wrap justify-content-center gap-3">
+        <i class="fab fa-react fa-2x text-primary"></i>
+        <i class="fab fa-node-js fa-2x text-primary"></i>
+        <i class="fab fa-python fa-2x text-primary"></i>
+        <i class="fab fa-django fa-2x text-primary"></i>
+        <i class="fas fa-database fa-2x text-primary"></i>
+        <i class="fab fa-mongodb fa-2x text-primary"></i>
+        <i class="fab fa-aws fa-2x text-primary"></i>
+        <i class="fab fa-github fa-2x text-primary"></i>
+        <i class="fab fa-linux fa-2x text-primary"></i>
+        <i class="fas fa-robot fa-2x text-primary"></i>
+        <i class="fas fa-chart-line fa-2x text-primary"></i>
+        <i class="fas fa-mobile-alt fa-2x text-primary"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==== TESTIMONIALS / EXPERIENCE / EDUCATION ==== -->
+  <section id="testimonials" class="py-12">
+    <div class="container">
+      <h2 class="section-title text-center mb-6">Experience & Education</h2>
+      <div class="exp-edu-grid bento-grid">
+        <!-- Experience Timeline -->
+        <div class="glass bento-item wide">
+          <h3>Professional Experience</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <time class="timeline-date">2026 – Present</time>
+              <div class="timeline-content">
+                <h4>Senior Full Stack Engineer</h4>
+                <p>Freelance – Built AI‑enhanced SaaS products for clients across fintech, health & edtech.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <time class="timeline-date">2026 – 2027</time>
+              <div class="timeline-content">
+                <h4>Backend Developer</h4>
+                <p>XYZ Corp – Developed Django REST APIs, integrated Celery workers & Dockerised deployments.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <time class="timeline-date">2025 – 2026</time>
+              <div class="timeline-content">
+                <h4>Junior Web Developer</h4>
+                <p>ABC Studio – Created responsive WordPress sites & custom plugins.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Education -->
+        <div class="glass bento-item">
+          <h3>Education</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <time class="timeline-date">2024 – 2028</time>
+              <div class="timeline-content">
+                <h4>B.E Artificial Intelligence and Machine Learning</h4>
+                <p>VSB Engineering college, Karur – CGPA: 7.7/10</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <time class="timeline-date">2024 – 2025</time>
+              <div class="timeline-content">
+                <h4>Certification – AI & Machine Learning</h4>
+                <p>Coursera (DeepLearning.AI) – Specialization completed.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonials -->
+        <div class="glass bento-item tall">
+          <h3>What Clients Say</h3>
+          <div class="testimonial-slider">
+            <div class="testimonial">
+              <p>“Abishek delivered a Django‑based MVP in record time. His AI integration added real value to our product.”</p>
+              <cite>— Rajesh K., CTO, FinTech Startup</cite>
+            </div>
+            <div class="testimonial">
+              <p>“The UI/UX feel of the e‑commerce store is stunning. Users love the smooth experience.”</p>
+              <cite>— Priya M., Product Lead, Retail Co.</cite>
+            </div>
+            <div class="testimonial">
+              <p>“Reliable, communicative, and technically superb. Highly recommend for any full‑stack project.”</p>
+              <cite>— Arvind S., Founder, EduTech LLC</cite>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==== RESUME ==== -->
+  <section id="resume" class="py-12">
+    <div class="container>
+      <h2 class="section-title text-center mb-6>Resume</h2>
+      <div class="resume-card glass p-6">
+        <div class="resume-left">
+          <h3>Abishek R V</h3>
+          <p class="title">Full Stack Developer • AI Enthusiast</p>
+          <p><i class="fas fa-map-marker-alt"></i> Krishnagiri, Tamil Nadu, India</p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:abhishekvadivelrv@gmail.com">abhishekvadivelrv@gmail.com</a></p>
+          <p><i class="fas fa-phone"></i> +91 9840889119</p>
+          <p><i class="fas fa-globe"></i> <a href="https://abhishekrv.dev" target="_blank">abhishekrv.dev</a></p>
+        </div>
+        <div class="resume-right">
+          <h4>Core Competencies</h4>
+          <ul class="list-unstyled">
+            <li><i class="fas fa-check"></i> Django, DRF, Celery</li>
+            <li><i class="fas fa-check"></i> React, Next.js, TypeScript</li>
+            <li><i class="fas fa-check"></i> Node.js, Express</li>
+            <li><i class="fas fa-check"></i> AI/ML – OpenAI, LangChain, RAG</li>
+            <li><i class="fas fa-check"></i> Docker, CI/CD, AWS</li>
+            <li><i class="fas fa-check"></i> SQL & NoSQL databases</li>
+            <li><i class="fas fa-check"></i> REST & GraphQL APIs</li>
+          </ul>
+          <a href="assets/files/Abishek_RV_Resume.pdf" class="btn btn-primary mt-4" download>
+            <i class="fas fa-download me-2"></i>Download PDF
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==== CONTACT ==== -->
+  <section id="contact" class="py-12">
+    <div class="container">
+      <h2 class="section-title text-center mb-6">Get In Touch</h2>
+      <form id="contact-form" class="glass p-6">
+        <div class="row gy-3">
+          <div class="col-12 col-md-6">
+            <input type="text" name="name" placeholder="Your Name" required class="form-control">
+          </div>
+          <div class="col-12 col-md-6">
+            <input type="email" name="email" placeholder="Your Email" required class="form-control">
+          </div>
+          <div class="col-12 col-md-6">
+            <input type="tel" name="phone" placeholder="Phone (optional)" class="form-control">
+          </div>
+          <div class="col-12 col-md-6">
+            <input type="text" name="subject" placeholder="Subject" required class="form-control">
+          </div>
+          <div class="col-12">
+            <textarea name="message" rows="5" placeholder="Your Message" required class="form-control"></textarea>
+          </div>
+          <div class="col-12 text-end">
+            <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane ms-2"></i></button>
+          </div>
+        </div>
+      </form>
+      <p class="text-center mt-4 text-muted">
+        Or reach me directly: <a href="mailto:abhishekvadivelrv@gmail.com">abhishekvadivelrv@gmail.com</a> | <a href="https://wa.me/919840889119" target="_blank">WhatsApp</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ==== FOOTER ==== -->
+  <footer class="footer text-center py-4">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Abishek R V. All rights reserved.</p>
+      <div class="social-icons mt-2">
+        <a href="https://github.com/abhishekrv" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/abhishekrv" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/abhishekrv" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==== SCRIPTS ==== -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
